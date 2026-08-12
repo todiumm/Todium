@@ -1,0 +1,19 @@
+# AZNetherPortal Configuration
+
+# Nether world folder name
+nether_world: "nether"
+
+# Fallback world folder name when returning from Nether without a link
+fallback_world: "lobby"
+
+# Minimum and maximum coordinates for random teleportation in the Nether
+rtp_min_x: -1000
+rtp_max_x: 1000
+rtp_min_z: -1000
+rtp_max_z: 1000
+
+# Teleportation delay in seconds (time players must stand in the portal)
+teleport_delay: 3
+
+# Cooldown time in seconds between teleportations to prevent infinite teleport loops
+cooldown_time: 5

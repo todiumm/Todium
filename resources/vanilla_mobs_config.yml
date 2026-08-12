@@ -1,0 +1,97 @@
+---
+# AZVanillaMobs Configuration
+
+# Map your worlds to their specific dimension type (overworld, nether, the_end)
+worlds:
+  "skyblock": "overworld"
+  "normal": "overworld"
+  "nether": "nether"
+  "the_end": "the_end"
+
+# Global cap for maximum mobs allowed on the server at once
+global-mob-cap: 200
+
+# Cap for maximum mobs allowed per world
+per-world-mob-cap: 70
+
+# Entity type limits (max number of specific mob types can spawn)
+entity-type-limits:
+  # Passive animals
+  cow: 30
+  pig: 25
+  sheep: 25
+  chicken: 40
+  horse: 15
+  donkey: 10
+  mule: 10
+  llama: 15
+  traderllama: 8
+  wolf: 20
+  cat: 15
+  ocelot: 10
+  panda: 10
+  fox: 15
+  goat: 15
+  bat: 20
+  
+  # Aquatic
+  squid: 20
+  glowsquid: 15
+  dolphin: 10
+  axolotl: 15
+  turtle: 10
+  cod: 20
+  salmon: 20
+  pufferfish: 15
+  tropicalfish: 25
+  tadpole: 30
+  
+  # Passive special
+  villager: 15
+  wanderingtrader: 3
+  irongolem: 5
+  snowgolem: 10
+  allay: 10
+  bee: 20
+  frog: 15
+  sniffer: 8
+  camel: 10
+  
+  # Overworld Hostile
+  zombie: 20
+  skeleton: 15
+  creeper: 15
+  spider: 15
+  cavespider: 10
+  slime: 8
+  silverfish: 5
+  witch: 8
+  zombievillager: 10
+  drowned: 10
+  husk: 12
+  stray: 12
+  phantom: 10
+  enderman: 12
+  vindicator: 8
+  evoker: 5
+  pillager: 8
+  ravager: 3
+  vex: 10
+  guardian: 8
+  elderguardian: 2
+  
+  # Nether
+  zombifiedpiglin: 15
+  piglin: 15
+  piglinbrute: 8
+  blaze: 10
+  ghast: 8
+  magmacube: 12
+  witherskeleton: 10
+  hoglin: 10
+  zoglin: 8
+  strider: 12
+  
+  # The End
+  shulker: 8
+  endermite: 15

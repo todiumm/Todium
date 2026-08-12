@@ -1,0 +1,19 @@
+#This configuration file controls global behavior packs used on your Todium server.
+#Behavior packs (also called "addons") let you customize Minecraft gameplay on the
+#client side - block behaviors, entity behaviors, loot tables, scripts, etc.
+#Todium advertises these packs to joining players via ResourcePacksInfoPacket with
+#the hasAddons flag set to true. Players download and apply them through the same
+#chunked transfer protocol as resource packs.
+
+#Choose whether players must use your chosen behavior packs to join the server.
+#NOTE: This will do nothing if there are no behavior packs in the stack below.
+force_behavior_packs: false
+behavior_stack:
+  #Behavior packs here are applied from bottom to top. This means that behaviors in higher packs will override those in lower packs.
+  #Entries here must indicate the filename of the behavior pack.
+  #Example
+  # - my_addon.mcpack
+  # - vanilla_behaviors.zip
+  #If you want to force clients to use vanilla behaviors, you must place a vanilla behavior pack in your behavior_packs folder and add it to the stack here.
+  #To specify a behavior pack encryption key, put the key in the <pack>.key file alongside the behavior pack. Example: my_addon.mcpack.key
+  #Packs that declare a "script" module will automatically set the hasScripts flag in ResourcePacksInfoPacket, which the client uses to gate its script runtime.
